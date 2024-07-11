@@ -195,9 +195,53 @@ main {
 /* Inspiration Section Ended */
 
 /* My Current Target Section Starts */
-
-
-
+.current-target-text-container {
+    text-align: center;
+}
+.current-target-heading {
+    font-size: 32px;
+    font-weight: 800px;
+    margin: 0 auto 24px; 
+}
+.skills {
+    max-width: 364px;
+    min-width:  280px;
+    max-height: 299px;
+    padding: 40px;
+}
+.skills-title {
+    font-weight: 800;
+    color: #0D1321;
+    font-size: 24px;
+}
+.skills a {
+    color: #0D1321;
+    font-size: 16px;
+    font-weight: bold;
+}
+.skills img {
+    margin-bottom: 24px;
+}
+.skills h4 {
+    margin-bottom: 8px;
+}
+.skills-container {
+    margin-top: 48px;
+    display: flex;
+    gap: 24px;
+}
+.bg-pink {
+    background-color: rgb(255, 76, 30, 5%);
+}
+.bg-blue {
+    background-color: rgb(0, 76, 232, 5%);
+}
+.bg-yellow {
+    background-color: rgb(255, 223, 0, 5%);
+}
+.current-target-container {
+    margin-bottom: 111px;
+}
 /* My Current Target Section Ended */
 
 /* Main Section Styles Ends */
