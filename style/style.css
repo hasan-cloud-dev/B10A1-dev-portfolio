@@ -100,6 +100,9 @@ nav li a {
 
 
 
+
+
+
 /* Main Section Starts */
 
 
@@ -109,15 +112,68 @@ nav li a {
 
 
 
+
+
+
+
 /* Footer Section */
-#footer {
+.footer {
     display: flex;
+    justify-content: center;
     align-items: center;
     margin-top: 74px;
 }
-
+.footer-container {
+    width: 1140px;
+    height: 313px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/handshake.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    color: rgba(13, 19, 33, 40%);
+    margin: 49px auto 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.footer-container h3 {
+    font-size: 32px;
+    color: #FFFFFF;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+.footer-container p {
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+    opacity: 60%;
+}
 .placeholder {
     width: 548px;
     height: 57px;
+    padding-left: 20px;
+    font-size: 16px;
+    color: rgba(13, 19, 33, 40%);
+    border: none;
+    border-radius: 8px;
+}
+.btn-footer {
+    border: none;
+}
+.footer-bottom {
+    height: 100px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(13, 19, 33, 3%);
+}
+.footer-text, .footer-handle {
+    font-weight: 700;
+    font-size: 20px;
+    color: #0D1321;
+    margin: 32px 150px;
 }
 /* Footer Ends */
